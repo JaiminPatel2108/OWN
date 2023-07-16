@@ -3,7 +3,7 @@ import cors from "cors"
 import authRoute from "./route/authRoute.js"
 import { connectDB } from "./connection/connection.js"
 import path from "path"
-import {fileURLToPath} from 'url
+import {fileURLToPath} from 'url'
 // import 
 
 //esmodule fix
