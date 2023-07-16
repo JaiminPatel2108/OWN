@@ -3,7 +3,12 @@ import cors from "cors"
 import authRoute from "./route/authRoute.js"
 import { connectDB } from "./connection/connection.js"
 import path from "path"
+import {fileURLToPath} from 'url
 // import 
+
+//esmodule fix
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express()
 app.use(cors())
